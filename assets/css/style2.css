@@ -1,0 +1,29 @@
+.container {
+	font-family: 'Sanchez', serif;
+	color: white;
+}
+
+.jumbotron h1 {
+	text-shadow: 3px 2px black;
+	padding-top: 10px;
+	color: white;
+}
+
+.jumbotron {
+	background-image: url("http://www.hbd.org/wp-content/uploads/2017/04/Brewery.jpg");
+	background-position: center center;
+}
+
+h3.intro {
+	padding-top: 45px;
+	color: white;
+	text-shadow:2px 1px black;
+}
+
+h1.jumbo {
+	color: white;
+}
+
+.body {
+	background-image: url(http://wallpaperpulse.com/img/2176677.jpg);
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Find Brewery </title>
+<!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Link for CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- Link for jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Link for favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/pics/beermug.png">
+<!-- Link for Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>   
+  </head>
+
+<!-- Background Image -->
+  <body background="assets/pics/dark_wood/dark_wood_@2X.png">
+<!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Find a local brewery </h1>
+            <p class="lead">You and your friends like drinking?&nbsp;&nbsp;Perfect ! Let's find a brewery for you.</p>
+        </div>
+    </div>
+<!-- Search bar by city only -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-8">
+               <!--  <label for="basic-url">What city will you be drinking in?</label> -->
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon3">What city will you be drinking in?</span>
+                    <input type="text" class="form-control" id="citySearch" aria-describedby="basic-addon3">
+                </div>
+            </div>
+<!-- Submit botton -->
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-default" id="submits">Submit</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        
+        <br>
+        <br>
+       
+        <br>
+        <br>
+        
+    </div>
+<!-- Results from submit button -->
+    <div class="2ndContainer">
+        <div class="row">
+          <div class="col-sm-4" id="red"> </div>
+          <div class="col-sm-4" id="blue"></div>
+          <div class="col-sm-4" id="green"></div>  
+        </div>
+    </div>
+    </div>
+
+<!-- Google Map API -->
+            <div id="map">
+        </div>
+    
+<!-- Google Map API Link with Key -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-0eYBkm8z_ydROSUNBkoku2uRGqTimNk">
+    </script>
+
+<!-- Link for Javascript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  </body>
+<!-- Footer back to homepage -->
+  <footer>
+    <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="home.html">Home Page</a>
+    </nav>
+</footer>
+
+</html>

@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 
  // Brewapi url
- var BrewURl = "http://api.brewerydb.com/v2/locations?locality=";
+ var BrewURl = "https://api.brewerydb.com/v2/locations?locality=";
  // Brewdb API key
  var Brewapikey = "&key=ac5930d09beb42c41b1efe71c200663f";
  // Initialize Firebase
